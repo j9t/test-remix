@@ -1,8 +1,9 @@
+import { Link } from "@remix-run/react";
 import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "JS Tips and Tricks" },
+    { title: "JavaScript Tips and Tricks" },
     { name: "description", content: "Learn some useful JavaScript tips and tricks!" },
   ];
 };
@@ -26,18 +27,18 @@ const tips = [
 ];
 
 const navItems = [
-  { href: "#", text: "Home" },
-  { href: "#", text: "About" },
-  { href: "#", text: "Contact" },
+  { href: "/", text: "Home" },
+  { href: "/about", text: "About" },
+  { href: "/contact", text: "Contact" },
 ];
 
 function Nav() {
   return (
     <nav className="flex justify-center space-x-4 p-4 bg-gray-800 text-white">
       {navItems.map((item) => (
-        <a key={item.href} href={item.href} className="hover:underline">
+        <Link key={item.href} to={item.href} className="hover:underline">
           {item.text}
-        </a>
+        </Link>
       ))}
     </nav>
   );

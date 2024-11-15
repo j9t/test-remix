@@ -1,8 +1,8 @@
 # Test Remix
 
 * [x] Set up base site
-* [x] Generate some content [initiated]
-* [x] Generate some design using ~~Bulma~~ Tailwind [initiated]
+* [x] Generate some content [in progress]
+* [x] Generate some design using ~~Bulma~~ Tailwind [in progress]
 * [ ] Set up tests
 * [ ] Reformat all code
 * [ ] Deploy to [something other than?] GitHub Pages
