@@ -1,4 +1,5 @@
 import Nav from "./_index";
+import Footer from "../components/Footer";
 import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
@@ -20,6 +21,7 @@ export default function About() {
           <p className="text-center">This is the About page.</p>
         </main>
       </div>
+      <Footer />
     </div>
 );
 }
