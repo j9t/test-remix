@@ -23,6 +23,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@playwright/test": "^1.49.0",
     "@remix-run/dev": "^2.14.0",
     "@testing-library/dom": "^10.4.0",
