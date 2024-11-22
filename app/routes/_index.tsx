@@ -1,5 +1,10 @@
 import { Outlet } from "@remix-run/react";
 import Nav from "../components/Nav";
+import { redirect } from "@remix-run/node";
+
+export const loader = async () => {
+  return redirect("/home");
+};
 
 export default function Index() {
   return (
