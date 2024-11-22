@@ -4,7 +4,7 @@
 * [x] Generate some content [in progress]
 * [x] Generate some design using ~~Bulma~~ Tailwind [in progress]
 * [x] Set up tests [in progress]
-* [ ] Reformat all code
+* [x] Reformat all code
 * [ ] Deploy to [something other than?] GitHub Pages
 * [ ] Come up with other great things to do
 
