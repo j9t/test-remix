@@ -12,7 +12,8 @@
     "test": "vitest",
     "test:e2e": "playwright test",
     "test:coverage": "vitest run --coverage",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "biome": "npx @biomejs/biome lint --write ."
   },
   "dependencies": {
     "@remix-run/node": "^2.14.0",
