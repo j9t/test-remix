@@ -5,7 +5,7 @@
 * [x] Generate some design using ~~Bulma~~ Tailwind [in progress]
 * [x] Set up tests [in progress]
 * [x] Reformat all code
-* [ ] Deploy to [something other than?] GitHub Pages
+* [x] Deploy to [something other than?] GitHub Pages
 * [ ] Come up with other great things to do
 
 (Remix default stuff below.)
