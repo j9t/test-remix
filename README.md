@@ -5,7 +5,7 @@
 * [x] Generate some design using ~~Bulma~~ Tailwind [in progress]
 * [x] Set up tests [in progress]
 * [x] Reformat all code
-* [x] [Deploy to ~~(something other than?)~~ GitHub Pages](https://j9t.github.io/test-remix/) [in progress]
+* [x] [Deploy to ~~(something other than?)~~ GitHub Pages](https://j9t.github.io/test-remix/) [💡](https://www.youtube.com/watch?v=EO_-KwSslWQ)
 * [ ] Come up with other great things to do
 
 (Remix default stuff below.)
