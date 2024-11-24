@@ -15,7 +15,7 @@
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --ui",
     "biome": "npx @biomejs/biome lint --write .",
-    "predeploy": "npm run build",
+    "predeploy": "remix vite:build",
     "deploy": "gh-pages -d build/client"
   },
   "dependencies": {
