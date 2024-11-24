@@ -3,6 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "homepage": "https://j9t.github.io/test-remix/",
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev --port 3000",
@@ -15,7 +16,7 @@
     "test:ui": "vitest --ui",
     "biome": "npx @biomejs/biome lint --write .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build/client"
   },
   "dependencies": {
     "@remix-run/node": "^2.14.0",
